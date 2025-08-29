@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class UserInterface {
-    Account[] accounts = new Account[100]; //  store accounts
+    Account[] accounts = new Account[100]; // array to store accounts
     int accountCount = 0;
     Scanner sc = new Scanner(System.in);
 
@@ -9,7 +9,7 @@ public class UserInterface {
     public void createAccount() {
         System.out.print("Enter Account Number: ");
         int accNum = sc.nextInt();
-        sc.nextLine(); 
+        sc.nextLine(); // consume newline
 
         System.out.print("Enter Account Holder Name: ");
         String name = sc.nextLine();
@@ -29,7 +29,7 @@ public class UserInterface {
 
         accounts[accountCount] = new Account(accNum, name, balance, email, phone, address);
         accountCount++;
-        System.out.println("Account created successfully!");
+        System.out.println(" Account created successfully!");
     }
 
     // Deposit
@@ -100,7 +100,7 @@ public class UserInterface {
         System.out.println("Account not found!");
     }
 
-  
+    // Menu
     public void mainMenu() {
         int choice = 0;
         while (choice != 6) {
@@ -132,4 +132,3 @@ public class UserInterface {
         ui.mainMenu();
     }
 }
-
