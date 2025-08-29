@@ -67,6 +67,8 @@ Enter your choice: 1
 ### Account Creation
 
    <img width="475" height="425" alt="image" src="https://github.com/user-attachments/assets/c25f8e69-35ad-46bd-a33d-f1a10839ebfa" />
+   <img width="420" height="418" alt="image" src="https://github.com/user-attachments/assets/727cf9c2-f192-420f-86c9-fed3c05d64b8" />
+
 
 
 ## Author
