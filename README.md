@@ -62,6 +62,11 @@ Enter your choice: 1
 3. Enter email address: john.doe@example.com
 4. Enter phone number: 1234567890
 5. Account created successfully with Account Number: 1001
+   
+## Screenshots
+### Account Creation
+
+   <img width="475" height="425" alt="image" src="https://github.com/user-attachments/assets/c25f8e69-35ad-46bd-a33d-f1a10839ebfa" />
 
 
 ## Author
